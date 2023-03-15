@@ -1,15 +1,11 @@
 #!/usr/bin/python3
 
-"""
-Esto es parte de la actividad sobre pipeline del dia jueves
-"""
+"""Esto es parte de la actividad sobre pipeline del dia jueves"""
 import os.path
 
 
 def main():
-    """
-    Si no existe, crea la carpeta build y el archivo index.html
-    """
+    """Si no existe, crea la carpeta build y el archivo index.html"""
     folder = 'build/'
     file = folder + 'index.html'
 
